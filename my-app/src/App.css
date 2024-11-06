@@ -1,0 +1,42 @@
+.info{
+  width: 400px;
+  border: 2px solid black;
+  margin: 10px 100px;
+}
+
+.count-container{
+  width: 300px;
+  border: 3px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container .btn{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.count-container * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container .plux-btn{
+  border-color: rgb(0, 68, 255);
+  color: rgb(21, 5, 250);
+}
+
+.count-container .minus-btn{
+  border-color: red;
+  color: red;
+}
+
+.count-container h1 {
+  width: 60px;
+  height: 60px;
+}
