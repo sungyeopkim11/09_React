@@ -9,6 +9,15 @@ import Props3 from './components/R05_Props3';
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 import State3 from './components/R08_State3';
+
+import StateReview1 from './review/State_Review1';
+import StateReview2 from './review/State_Review2';
+
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+
+
+import Context3 from './R11_Context3/Parent';
 // -> R01_ClassComponents에서 export된 HTML 요소를
 //   ClassComponent 라고 부르겠다
 //        --> <ClassComponent/> 형태로 사용 가능
@@ -32,7 +41,7 @@ function App() {
       <Props1/> */}
 
       <hr/>
-      <Props2 name='강감찬'
+      {/* <Props2 name='강감찬'
               age = '72'
               address='낙성대'
               gender='남자'/>
@@ -42,16 +51,24 @@ function App() {
               address='중구'
               gender='여자'/>
       <hr/>
-      <Props3 productName='라면' price='3000' />
+      <Props3 productName='라면' price='3000' /> */}
 
 
       {/* State */}
-      <State1 />
+      {/* <State1 />
 
-      <State2 init='0'/>
+      <State2 init='0'/> */}
 
       <hr/>
-      <State3/>
+      {/* <State3/> */}
+
+      {/* <StateReview1/>
+      <StateReview2/> */}
+
+        {/* Context */}
+      {/* <Context1/> */}
+      <Context2/>
+      <Context3/>
     </>
   );
 }
